@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+h2{
+    color: green;
+    background-image: linear-gradient(to right, #3FDB90, white);
+    padding: 6px;
+}
+p.headtext{
+    text-align: center;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+a.textlink{
+    font-family: sans-serif;
+    color: green;
+}
+strong{
+    color: green;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    text-align: justify;
+    background-color: #3FDB90;
+}
+header{
+    background-image: linear-gradient(to top, #1B5C3C, #3FDB90);
+    color: white;
+}
+header h1{
+    text-align: center;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 8px black;
+    font-size: 2.5em;
+}
+header p{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px 8px black;
+    font-size: 1em;
+    max-width: 500px;
+    font-weight: bold;
+}
+nav{
+    padding: 10px;
+}
+nav a{
+    padding: 10px;
+    color: white;
+}
+nav a:hover{
+    background-color: #c5ebd6;
+    color: #063d1e;
+    border-radius: 10px 10px 0px 0px;
+}
+main{
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    min-width: 460px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+main h1{
+    font-family: 'Android';
+    font-size: 1.8em;
+    color: #1B5C3C;
+}
+main h2{
+    font-family: 'Android';
+    padding-left: 20px;
+    border-radius: 20px;
+}
+main img{
+    width: 100%;
+}
+img#pequeno{
+    max-width: fit-content;
+    display: block;
+    margin: auto;
+}
+#video{
+    background-color: #1B5C3C;
+    margin: 20px 0px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+#video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+section.padding{
+    padding: 20px;
+}
+#extra{
+    background-color: #85E1B5;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+#aprender-mais{
+    background-color: #365C4A;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: bold;
+}
+article ul{
+    list-style-position: inside;
+    columns: 2;
+}  
+footer{
+    background-color: #1B5C3C;
+    text-align: center;
+    color: white;
+    padding: 1px;
+} 
+footer a{
+    color: white;
+    font-weight: bold;
+}
+footer a:hover{
+    text-decoration: underline;
+}

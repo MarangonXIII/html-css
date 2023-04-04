@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11- Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="fotos/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="fotos/foto-m.png" type="image/png">
+        <img src="fotos/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vampos aprender a reproduzir áudios em HTML5</p>
+    <audio src="media/FLAUTA DO MAGRÃO 1 - MC RD, MC DRICKA & MC IGÃO BDR --GRAVE (BASS-BOOSTED).mp3" controls autoplay></audio><!-- MP3 HAV OGG -->
+    <audio>
+        <source src="media/rato dançando skakakkskskskaksksksksksksksk.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1>Inserindo video hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+
+    <!--<video src="media/X2Download.app-Bonecos do ROBLOX dançando funk(360p).mp4" controls autoplay></video>
+    <video src="media/X2Download.app-INSANE MINECRAFT GUY ����(360p).mp4" width="600" controls autoplay></video>
+    <video src="media/Pexels-Tima-Miroshnichenko-7935255.mp4" width="600" controls autoplay></video>-->
+
+    <video width="560" controls autoplay loop>
+        <source src="midia/Ori-Pexels-Tima-Miroshnichenko-7935255.mkv" type="video/mkv">
+        <source src="midia/Pexels-Tima-Miroshnichenko-7935255.mp4" type="video/mp4">
+        <source src="midia/Pexels-Tima-Miroshnichenko-7935255.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+    </video>
+    
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/l_i1gjyBpzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/631774445?h=7317ae3e6d&autoplay=1&loop=1&byline=0&portrait=0" width="560" height="259" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

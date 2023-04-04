@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens adaptaveis</title>
+    <link rel="shortcut icon" href="imagens/favicon/andrew-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html">1- Página Inicial</a><a href="">|</a><a href="pag02.html">2- Imagem adaptável</a><a href="">|</a><a href="pag03.html">3- Mucho Texto</a><a href="">|</a><a href="pagfim.html">4- Página sem CSS</a>
+    <h1>Bem-vindo a página 2</h1>
+    <h2>Aqui está a imagem</h2>
+    <picture>
+        <source media="(max-width: 300px)" srcset="imagens/tritiu200.jpg" type="image/jpg">
+        <source media="(max-width: 400px)" srcset="imagens/tritiu-300.jpg" type="image/jpg">
+        <source media="(max-width: 500px)" srcset="imagens/tritiu-400.jpg" type="image/jpg">
+        <source media="(max-width: 600px)" srcset="imagens/tritiu-500.jpg" type="image/jpg">
+        <source media="(max-width: 700px)" srcset="imagens/tritiu-600.jpg" type="image/jpg">
+        <source media="(max-width: 800px)" srcset="imagens/tritiu-700.jpg" type="image/jpg">
+        <source media="(max-width: 900px)" srcset="imagens/tritiu-800.jpg" type="image/jpg">
+        <source media="(max-width: 1000px)" srcset="imagens/tritiu-900.jpg" type="image/jpg">
+        <source media="(max-width: 1250px)" srcset="imagens/tritiu-1000.jpg" type="image/jpg">
+        <img src="imagens/tritiu.jpg" alt="imagem">
+    </picture>
+</body>
+</html>
