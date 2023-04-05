@@ -1,0 +1,29 @@
+div.quadrado{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: lightgray;
+}
+div#q1{
+    background-image: url(imagens/wallpaper003.jpg);
+}
+div#q2{
+    background-image: url(imagens/wallpaper003.jpg);
+    background-position: center center;
+}
+div#q3{
+    background-image: url(imagens/wallpaper003.jpg);
+    background-position: right bottom;
+}
+div#q4{
+    background-image: url(imagens/wallpaper003.jpg);
+    background-position: left center;
+}
+div#q5{
+    background-image: url(imagens/wallpaper003.jpg);
+    background-position: top center;
+}
