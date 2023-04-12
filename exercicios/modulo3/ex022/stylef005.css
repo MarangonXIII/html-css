@@ -2,7 +2,7 @@ div.quadrado{
     margin-top: 20px;
     margin-left: 20px;
     display: inline-block;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     width: 400px;
     height: 400px;

@@ -13,7 +13,7 @@ div#q1{
     background-color: aqua;
 }
 div#q2{
-    background-image: linear-gradient(to bottom,green, yellow, red);
+    background-image: linear-gradient(to bottom,green, yellow, rgb(255, 0, 0));
 }
 div#q3{
     background-image: url(imagens/pattern003.png);

@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    /*background-color: black;
+    background-image: url(imagens/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+    /* Shorthand - Background
+        color > image > position > repeat > [size] > attachment
+
+        size: não funciona no shorthand, precisa ficar separado
+        
+    */
+    background: black url(imagens/wallpaper002.jpg) center top no-repeat fixed;
+    background-size: cover;
+}
+main{
+    background-color: white;
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: justify;
+}
+nav{
+    margin-bottom: 10px;
+}

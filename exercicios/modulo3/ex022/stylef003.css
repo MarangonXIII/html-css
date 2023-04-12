@@ -1,7 +1,7 @@
 div.bloco{
     background-image: url(imagens/wallpaper003.jpg);
     height: 200px;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     margin: 10px;
     border-radius: 20px;
 }
