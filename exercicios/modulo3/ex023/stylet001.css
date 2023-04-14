@@ -1,0 +1,12 @@
+table{
+    width: 400px;
+    height: 400px;
+}
+td{
+    padding: 8px;
+    text-align: center; /* Alinhamento Horizontal */
+    vertical-align: middle; /* Alinhamento Vertical */
+}
+.numero{
+    text-align: right;
+}
